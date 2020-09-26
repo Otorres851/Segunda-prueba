@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Lato', sans-serif;
+}
+
+body {
+background: rgb(202, 202, 202); 
+}
+.superior{
+    font-size: 18px;
+    text-align: center;
+    font-family: tahoma;
+    margin: 1px;
+    padding: 3px;
+}
+
+.superior_titulo{
+    color:#29597C;
+}
+
+.lateral{
+    background: linear-gradient(90deg, rgb(53, 78, 102), rgb(52, 27, 63));
+    bottom: 0;
+    left: 0;
+    padding: 0.5em;
+    position: fixed;
+    top: 0;
+    width: 55%;
+    max-width: 255px;
+ 
+}
+
+/*Perfil*/
+
+.perfil_circulo{
+    border-radius:50%;
+    height: 50px;
+    overflow: hidden;
+    margin-left: 80px;
+    width: 50px;
+    
+}
+
+.perfil_foto{
+    width: 100%;
+}
+
+.perfil_nombres{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 0.5em;
+    width: 250px;
+}
+
+.perfil_nombres, .perfil_circulo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.perfil_descripcion {
+    color: #fff;
+    font-size: 12px;
+    margin: 1px;
+    width: 220px;
+    text-align: center;
+}
+
+/*informacion*/
+
+.informacion{
+    color:#148b82;
+    padding: 1px; 
+    margin: 1px 1px 5px 5px;
+    position: fixed;
+    width: 220px; 
+}
+
+.informacion_titulo{
+    font-size: 30px;
+    font-family: Style;
+}
+
+/*Habilidades*/
+
+.habilidades{
+    padding: 0;
+
+}
+
+.habilidad--proyecto{
+    background-color: #29597C;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 2px;
+}
+.habilidad--imagen{
+    padding: 0;
+    float: right;
+    margin: 20px 30px 1px 1px;  
+}
+
+.habilidad--imagenes{
+    padding: 0; 
+    margin: 20px 1px 1px 30px;
+    float: left;  
+}
+
+/*Proyectos*/
+
+.proyectos{
+    margin-left: 240px;
+    padding: 1em;
+    display: table; 
+}
+
+.proyecto{
+    width: auto;
+    min-width: 170px;
+    padding: 1em;
+    display: table-cell;
+             
+}
+
+.proyecto_imagen{
+    width: 100%;
+    height: 355px;
+    border-radius: 15px;
+    border:dotted 2px #0c2435;
+    
+}
+
+.proyecto_titulo{
+    color: #29597C;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+.proyecto_descripcion{
+    color: #797D7F;
+    width: 100%;
+    padding: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .proyectos {
+        width:auto;
+    }
+
+    .proyecto_imagen {
+        width:105%;
+    }
+    .proyecto {
+        display: block;
+        overflow-x: auto;
+      }
+    
+      
+}
+    
